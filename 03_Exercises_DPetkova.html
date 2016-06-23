@@ -1,0 +1,65 @@
+<html>
+<head>
+  <script src="sample.js" type="text/javascript">
+  "use strict";
+  //Ex.1
+  var a = 3;
+  var b = 2;
+  if (a > b) {
+	var c = a;
+	var a = b;
+	var b = c;
+	console.log('a = ' + a);
+	console.log('b = ' + b);
+  }
+  //Ex.2
+  var x = 1.1;
+  var y = -2.2;
+  var z = -3.3;
+  if (x && y && z > 0) {
+	console.log('sign +');
+  } else if (x && y && z < 0){
+		console.log('sign -');
+	} else if ((x || y < 0) && (x || z < 0) && (z || y < 0)) {
+			console.log('sing -')
+		} //...
+		
+	//Ex.3
+var num1 = 1;
+var num2 = 2;
+var num3 = 3;
+if (num1 > num2) {
+	if (num1 > num3) {
+		console.log('Biggest number ' num1);
+	} else {
+		console.log('Biggest number ' num3);
+	  }	
+} else if (num2 > num3) {
+		console.log('Biggest number ' num2);
+}
+else {
+		console.log('Biggest number ' num3)
+}
+
+	//Ex.4
+	var num1 = 2;
+	var num2 = -1;
+	var num3 = 5;
+if (num1 > num2) {
+	if (num1 > num3) {
+		if (num2 > num3) {
+			console.log(num3, num2, num1);
+		} else {
+			console.log(num2, num3, num1);
+		}
+	}
+else if () {
+
+}//...
+	
+	
+  </script>
+</head>
+<body>
+</body>
+</html>
